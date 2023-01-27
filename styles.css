@@ -1,0 +1,65 @@
+body {
+  background-color: #131313;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.main-div {
+  margin: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#searchBox {
+  width: 60%;
+  height: 40px;
+  margin: auto;
+  align-items: center;
+  margin: 12px 0;
+  font-size: 1.2rem;
+
+  border-radius: 6px;
+  text-align: center;
+  -webkit-box-shadow: 1px 2px 0px 0px rgba(255, 255, 255, 0.43);
+  -moz-box-shadow: 1px 2px 0px 0px rgba(255, 255, 255, 0.43);
+  box-shadow: 1px 2px 0px 0px rgba(255, 255, 255, 0.43);
+}
+
+#getPoki {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  border-radius: 6px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  width: 10%;
+  border: none;
+  outline: none;
+}
+#getPoki:hover {
+  filter: brightness(80%);
+}
+
+.pokeInfo {
+  padding: 0 200px;
+}
+
+#pokeName {
+  margin: 8px 0;
+  font-size: 2rem;
+  font-style: bold;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+#pokeType {
+  font-size: 1.6rem;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+}
+
+#pokeImg {
+  width: 150%;
+  margin: auto;
+}
